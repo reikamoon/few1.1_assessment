@@ -1,0 +1,61 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Helvetica;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+
+label {
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+p {
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+
+.flex-container {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: DeepPink;
+  justify-content: center;
+}
+
+.example-box {
+  height: 200px;
+  width: 200px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  display: block;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  justify-content: center;
+  text-align: center;
+}
+
+#box {
+  height: 120px;
+  width: 120px;
+  display: block;
+  background-color: pink;
+  margin: auto;
+}

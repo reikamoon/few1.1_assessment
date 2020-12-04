@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="./css/styles.css" rel="stylesheet" type="text/css">
+  <title>FEW Assessment</title>
+</head>
+<body>
+  <!-- Name Box -->
+  <div class="flex-container">
+    <div class="example-box">
+      <center>
+      <h1>Anjelica Ambrosio</h1>
+      <h2>FEW Assessment</h2>
+      </center>
+    </div>
+
+    <!-- Width, Height, Color Input Box -->
+    <div class="example-box">
+      <form><br>
+        <label for="Width" name="Width">Width:</label><br>
+        <input id= "width" type="number"><br><br> <!--- Comment ---->
+        <label for="Height" name="Height">Height:</label><br>
+        <input id="height" type="number"><br><br>
+        <label for="Color" name="Color">Color:</label><br>
+        <input id="color" type="color"><br><br>
+      </form>
+    </div>
+
+
+    <!-- Width Height Color Outputs -->
+    <div class="example-box"><br>
+    <label for="Width" name="Width">Width:</label><br>
+    <p id ="width-output"> </p>
+    <label for="Height" name="Height">Height:</label><br>
+    <p id ="height-output"> </p>
+    <label for="Color" name="Color">Color:</label>
+    <p id="color-output"> </p>
+    </div>
+
+    <!-- Show Changes -->
+    <div class="example-box">
+      <h2>Color</h2>
+      <div id="box">  </div>
+    </div>
+  </div>
+
+  <!-- Link Javascript -->
+  <script src="./index.js"></script>
+</body>
+</html>
